@@ -1,0 +1,75 @@
+HTML: Hyper Text Markup Language
+
+A simple Language made from elements.
+
+What is Markup Language?
+Ans: With the help of tags we give instruction to browser and they display it on web page.
+
+Elements: (Tags)
+Individual components for html document and every elements are self meaning...
+
+Have Opening tage and closing tage (<style>....</style>)
+Some elements have no closing tag like img, br, hr etc. (Only opening tags)
+
+Nesting of Elements:
+Use elements in other elements
+For fully functionality we add some attributes to make it interactive.
+
+Syntax: class = "..." (attributes name then its value)
+inside a quotaion mark we write attributes name "btn"
+
+Some boolean attributes like "required" like when creating a form there should filing gmail compulsory.
+
+General purpose of attributes:
+<a id = "value">
+<span id = "value">
+<img src = "value">
+
+1. ID:
+We give it only one element mean particular 
+it should be a unique.
+
+2. Class:
+This is not a unique we give it for more then one element and can give a value randomly.
+
+Now to use and create html page: (Boiler plate code) -> first code
+
+!DOCTYPE html:
+Tell browser that which type of document -> HTML
+
+<html>
+This is the root element all the components include inside this tag
+</html>
+
+<head>
+Basicly the info that do not display on web like
+but related to web like (title) and (links) etc.
+Also a colletion of metadata
+</head>
+
+<body>
+All the things we need to display it on web browser.
+</body>
+
+
+Now let's start a pricticle work:
+Software:
+Text-Editor: Notepade, also recomended -> VS code = Open Sourse and interesting.
+
+HTML Entities:
+Used to display: Reserved character, Spacial character, Emojis, Symbols.
+
+Syntax: (&entity_name:)
+First we need to write (&) and in last (simicolon) 
+
+1. Strong, b: Use to bold Text
+2. i: for italic
+3. small: for small text.
+4. supscript (sup): for 10 power 2. (10 <sup>2</sup>)
+
+List and its type:
+1. Order List <ol> -> by order 1,2,3
+They have also many types: (A, a, I, i)
+2. Description List 
+3. Unorder List  <ul> -> Un order like dot . .
+They have also many types:  (square, circle, disc)
