@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Course Vedio 02</title>
+</head>
+<body>
+
+    <!-- Hyper Link -->
+    <a href="https://www.google.com" target="_blank">Google</a> <!-- Atribute: (href, target) target is for open in new tab -->
+    <br>
+    <a href="index1.html">Privious Lec File -> index1.html</a>
+
+    <h3>links to Apna Collge notes:</h3>
+    <a href="https://drive.google.com/drive/folders" target="_blank">Apna College Notes</a>
+
+    <h3>Link to outside file:</h3>
+    <a href="/Notes/html1.txt" target="_blank">Privious lec Notes</a>
+    <br>
+    <a href="/Notes/html2.txt" target="_blank">Current lec Notes</a>
+    <br>
+
+    <hr>
+
+    <!-- img/vedio tag -->
+    <h3>Image:</h3>
+    <img src="/img/i.png" alt="Img 1" width="450"> <!-- Only width is required/recomended... for more see html2.txt -->
+    <hr>
+    <h3>Vedio:</h3>
+    <video src="/Vedio/v.mp4" width="450" poster="/img/i.png" controls autoplay loop muted></video> <!-- Detailes available in html2.txt -->
+    <hr>
+
+    <!-- Iframe tag -->
+     <h3>Iframe Vedio from other websites</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2QR11oDukn4?si=OlFaBHBr346RBPR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <br>
+
+    <!-- Table -->
+
+    <table>
+        <thead>
+            <th>Course Name</th>
+            <th>Duration</th>
+            <th>Grade</th>
+            <th>Marks</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Computer Network</td>
+                <td>6 Months</td>
+                <td>B+</td>
+                <td>75</td>
+            </tr>
+
+            <tr>
+                <td>Mathematics</td>
+                <td>4 Months</td>
+                <td>A-</td>
+                <td>80</td>
+            </tr>
+
+            <tr>
+                <td>Computer Science</td>
+                <td>8 Months</td>
+                <td>B+</td>
+                <td>75</td>
+            </tr>
+
+            <tr>
+                <td>Arechitecture</td>
+                <td>2 Months</td>
+                <td>B</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>C++ Programming</td>
+                <td>6 Months</td>
+                <td>B+</td>
+                <td>75</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th>Total Marks</th>
+            <th></th>
+            <th></th>
+            <th>375</th>
+        </tfoot>
+        
+        <tfoot>
+            <th colspan="4">Result: Passed</th>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>

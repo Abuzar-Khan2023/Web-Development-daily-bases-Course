@@ -1,0 +1,73 @@
+Hyper Link: Link having ocured Link: URL = Uniform Resourse Locator.
+Url are unique, 
+Types: Absolute, Reletive
+
+Absolute: A path from start to end.
+Reletive: From current file to target.
+Syntax:
+Tag: <a> and attribute is (href)
+
+Moving to the file location:
+1. Current folder = write the name of folder
+2. Inside folder = /then name
+3. Outside folder = ../folder_name.
+
+Image Element <img>
+
+Attribute:
+1. (src): sourse and path which you wanna display
+2. (Alt) for alternative mean if the image 
+   is loading and they do not work so the text would be displayed.
+3. (width, height) for image size fiting recomendation = you
+   need to give one only the other will auto set there self
+
+Vedio Element <video>
+
+Attributes:
+1. src
+2. width
+3. controls = This should be compulsory in vedio beacuse they
+   will do not play looing like img    
+4. autoplay = when the browser run it will be play automaticaly but
+   have not stop controls we use in website for short clips animated like etc...
+5. Loop =  automaticaly repeat
+6. muted = playe mute automaticaly then you can unmute it.
+7. poster = for thumbnail we can set img on vedio first like in youtube.
+
+iframe Tag: (Embeding)
+Display another website in you website
+
+By copying its ifram tag or embeded links
+Attributs: All are simple in link of iframe.
+
+We can also embed our other website inside this by copying there link.
+
+
+Table:
+Made from cells have row and columns = Horizental and Vertical
+
+In HTML:
+<table> first tag for table then for every row
+<thead> inside all heading = tr, th
+<tbody> inside all the content = td etc...
+<tfoot> for rowspan -> details = line: 67
+<tr> represent table row
+<td> table data inside cells
+<th> for heading in table at the top cells
+
+Attributs:
+Inside <tr> tag:
+
+Row Span: To use 2 rows for one (th) -> table heading
+Syntax: <th rowspan = "2"> $data </th>
+
+Col Span: For extra one cell you want to add sum/total for more columns.
+Syntax: <td colspan = "2" Sum/Total: $data </td
+
+And in last when we need to count Total or Sum:
+Syntax:
+
+<tfoot>
+    <th rowspan = "2" Total </th
+    <th> 456 </th>
+</tfoot>
