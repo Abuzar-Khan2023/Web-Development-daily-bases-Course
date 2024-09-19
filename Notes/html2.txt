@@ -68,6 +68,8 @@ And in last when we need to count Total or Sum:
 Syntax:
 
 <tfoot>
-    <th rowspan = "2" Total </th
+    <th rowspan = "2" Total </th>
     <th> 456 </th>
 </tfoot>
+
+Here 2 means it will skip 2 rows or columns between (Total and 456).
