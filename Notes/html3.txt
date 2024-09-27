@@ -1,0 +1,44 @@
+Form:
+User input data and submit to sever.
+
+To create a form we first use a tag if <form>
+
+There is 2 important tags: <action> <method>
+
+<action> : the data we send to sever the url will be inside the action (server location)
+<method> : way to send the information to server.
+
+Elements:
+1. input = have a type and name attribute inside input.
+
+Attributes:
+1. Type = "txt"
+2. Nmae = "fname"
+3. Value = "male" // We first define some value that user chose and 
+                    In input user itself give or inout values
+
+Input Type:
+1. txt = Normal text
+2. Password = Charecter hiden
+3. radio = option chose
+4. checkbox = multipe check
+5. file = upload files = img etc
+6. Buttons: 
+    1. submit = For Information passing, 
+    2. reset = To reset or remove all form data.
+    3. image = click to pass info (arrow like)
+
+Textarea:
+Data from user have long and multiple rows and columns.
+
+Select Box:
+Tage = <select> for selecting different cities and inde having options with tag of <option>
+
+<Fieldset> This tag is use to create a box for some data you can write inside this field.
+    With Fieldset tag we use <legend> to named this box 
+    Such as we use in index3.html for Gender have inside data of male and female.
+
+
+
+Now create a payment form:-> index3.html
+
