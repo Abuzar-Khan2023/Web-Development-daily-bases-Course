@@ -1,0 +1,12 @@
+Div and Span tags:
+
+These are use for the genrel purposes mean they have no spacific
+content allot.
+
+Why both (difference)?
+
+Div is for block elements. block = Take horizental complete space if one word also...
+
+Span is for Inline elements. inline = Take the space have takened by content.
+
+For clearly undurestanding you may check project.html file having example of <p> tag and <em> tag
