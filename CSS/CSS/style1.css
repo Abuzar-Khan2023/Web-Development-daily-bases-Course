@@ -1,0 +1,78 @@
+/* .External {
+    background-color: black;
+    color: white;
+} */
+
+/* p {
+    color: rgb(255, 0, 0);
+} */
+
+a {
+    color: green;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+/* .special {
+    color: blue;
+    font-weight: bold;
+} */
+
+
+/* Chiled Selector */
+span.special, li.special {
+    color: blue;
+    font-weight: bold;
+}
+
+em.special {
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Descendent Combinator */
+li em {
+    color: rgb(7, 120, 79);
+    font-weight: bold;
+}
+
+/* Adjacent Combinator (Here after the h1 tag will be select for designing)*/
+h1 + p {
+    color: rgb(192, 21, 21);
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+} 
+
+/* Pseudo Class Selector */
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* (Here to desgin the particular special class inside <p> tag only) */ 
+body h1+p .special {
+    color: orange;
+    background-color: black;
+    padding: 5px;
+}
+
+#heading {
+    text-decoration: underline;
+    background-color: brown;
+}
+
+
+/* Attribute Selector it will select li tag with have class a "only" for just write a class then all the li tag with class will be design as it is*/
+li[class="a"] {
+    font-size: 300%;
+}
+
+/* It will desgin all the li tag with class a */
+li[class~="a"] {
+    font-size: 300%;
+    color: aqua;
+}

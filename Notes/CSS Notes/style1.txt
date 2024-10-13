@@ -1,0 +1,43 @@
+CSS: (Casecading Style Sheet)
+is to desgin websites.
+
+
+Properties:  We write a value inside it.
+
+    Value can predefine or user-define:
+
+Pre-define: Look a value in a documentation. already taken in docs you select
+User-define: Self you create a value.
+
+syntaxt:
+{
+    color: green;
+    background-color: black;
+    font-family: "Times New Roman";
+}
+
+Here the color, font-family is properties while green, blacks are values inside it.
+
+There are three way to import css for HTML:
+
+1. Inline:      We write a css code inside the <style> tag in html file.
+2. External:    For that we ceate another file for css and then linked to its html.
+3. Internal:    Use a <style> tag in a line of html for a spacific html tag.
+
+For all three there is example available in CSS-first file.
+
+Selector In CSS:
+
+1.  Type Selector:           h1 {}              Here h1 is tag from html file
+2.  Universal Selector:      * {}               This selector is applying for all html file
+3.  Class Selector:          .box {}            Here box is the class name we give them in html file and represented by .
+4.  ID Selector:             #box {}            Here box is ID name and # represent it.
+5.  Attribute Selector:      a[title] {}        Here we select a particular url       
+6.  Pseudo Class Selector:   p:first-chile {}   Group of selector we style different state of elements => use in :hover when we select it its change there is state. 
+7.  Pseudo Element Selector: p::first-line {}   Like here we want to desgin the first line of paragraph.
+8.  Descendant Combinator:   article p          Select elements with his chile mean inside tags within one tag
+9.  Chiled Combinator:       article > p        
+10. Adjacent Combinator:     h1 + p
+11. G - Sibling Combinator:  h1 ~ p
+
+We select a selector from the above then insie write a rules.
