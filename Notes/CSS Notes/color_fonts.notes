@@ -1,0 +1,54 @@
+For color we use properties:
+
+Backgroung-color,
+Border color.
+Foreground color = front / text color.
+
+We deside color usually on value of hexa-decimal => #RGB
+
+
+Img in Background: (Properties)
+we use Background-image is a property and then in value of url 
+function where we give pTH TO IMG.
+
+Background-Repeat:
+repeat-x or y and no-repeat for imag you want
+
+Position:
+Youe decide to set imagw here you want
+Left, right, top and bottom.
+
+
+Fonts:
+Use property of font family to select own choice font types
+
+1 .Style: Itali, normal, Bold
+
+2. Font-size,
+
+3. Font-weight: 100 to 900 values
+
+4. Formating Text with CSS:
+Text color: simple give property of (color)
+Text-Align: left, cente, right, justify = it wll be very fomrmating for magzines etc
+
+5. Text-Decoration:
+Overline,
+underline,
+line-through,
+none
+
+6. Text-Transform:
+Lovercase,
+upercase
+capitalize first later.
+
+7. Text-Indentation:
+        If we want space to start the paragraph mean space from starting of paragrapgh
+    like i give in this paragraph.
+
+8. Latter-Spacing:
+Normal, or size you give.
+
+9. Word-Spacing:
+Space b/w words sme with above

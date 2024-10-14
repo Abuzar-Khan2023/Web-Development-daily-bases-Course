@@ -1,0 +1,19 @@
+/* Here in a tag the css will be applied to all have start from https */
+/* attribute selector (^= mean starts with) */
+/* a[href^="https"] {
+    color: rgb(39, 251, 39);
+} */
+
+/* Here we color the base class inside the a tag spacificly */
+/* a.bsse {
+    color: black;
+} */
+
+/* Here use attribute selector to design the a tag where ends with "org" */
+/* $= use for end selection */
+a[href$="org"] {
+     color: yellow;
+}
+
+
+/* ~ symbol for genrelsibling character*/

@@ -1,0 +1,52 @@
+/* h1 {
+    color: rgba(26, 40, 144, 0.827);
+    background-color: rgb(186, 138, 138);
+}
+
+p {
+    color: rgb(255, 255, 0);
+    font-size: x-large;
+    font-weight: bold;
+} */
+
+.background {
+    background-image: url('/img/i.png');
+    background-repeat: repeat; /* no-repeat, repeat, repeat-x, repeat-y */
+    background-size: 500px;
+    background-attachment: fixed; /* scroll, fixed interesting to select img for all web backgroung*/
+    height: 2000px;
+    background-position: center; /* top, center, bottom, left, right */
+}
+
+.font {
+    height: auto;
+    width: 80%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-css ~ p {
+    color: rgb(125, 125, 158);
+    line-height: 4;
+    text-indent: 100px;
+    word-spacing: 5;
+    letter-spacing: 8;
+    text-transform: uppercase;
+}
+
+.text-css {
+    text-shadow: 10px 10px 10px black;
+}
