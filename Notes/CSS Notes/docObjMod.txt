@@ -1,0 +1,97 @@
+Document Objet Model and Box Model:
+
+How CSS Works?
+Ans:
+    Every browser when display any website first arrived 2 docs of html and css.
+
+First HTML arrived to browser they convert it into DOM.
+Then dom shift to memory of computer and they fetch css with html and its all content like audio, img, videos.
+JavaScript load in last.
+
+Now What is DOM?
+Ans:
+    Dom is tree structure like parents -> child ~ there siblings and so on...
+
+
+Units in CSS:
+
+1. Reletive: (Dependent on other like on size and or parent)
+%, em, rem, vh, vw, vmin, vmax
+
+%: It will be calculate from parent tag like form body
+    if body have 50px font-size and another div have 200% 
+    so the it will compare like 200% of 50px.
+
+em:
+    It will compare with current font-size of the elements.
+
+rem:
+    Compare or reletive with root element mean the root is <html>
+
+vw:
+    Compare or calculate with browser width mean 1% of the width of the viewport.
+
+vh:
+    Also Compare or calculate with browser but height mean 1% of the height of the viewport
+
+vmin:
+    It will compare the height and width and then select minimun of them.
+
+vmax:
+    It will compare the height and width but it will select maximun of them.
+
+
+
+2. Absolute: (Fixed values)
+cm, mm, px, pt, pc
+
+cm:
+    centi-meter,  1cm = 96px/2.54
+
+mm:
+    mili-meter
+
+in:
+    inches, 1 inch = 96px = 2.54cm
+
+px:
+    Pixels, 1px = 1/96th of 1 inch
+
+pt:
+    Points, 1 pt = 1/72 of 1 inch
+
+pc:
+    picas, 1 pc = 12 pt.
+
+
+Box Model:
+
+1. Padding:
+    Space in the content sorounding
+    When we adding some color in background it will be also colored because its inside the box.
+
+2. Margin:
+    Space in the box sorounding
+    Margin of the box should not be colored
+
+
+List-Styling:
+
+Properties:
+list-style-type: none, or else...
+
+list-stle-position: there are two positions inside and outsite
+this is for color of the list in back
+
+list-style-img: we can also use image in list
+
+Anchor tag is inline element <a>
+
+
+Table styling:
+
+Seperate border
+
+Collaps border: Properties = border-collaps: collaps;
+
+to give space b/w we use padding.

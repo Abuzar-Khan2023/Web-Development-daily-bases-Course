@@ -1,0 +1,103 @@
+/* body {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.percent {
+    font-size: 200%;
+}
+
+.em {
+    font-size: 1.5em;
+} */
+
+/* div {
+    /* height: 20px;
+    width: 200px;
+    padding: 25px;
+    border: 10px solid black;
+    margin: 20px;
+} */
+
+
+.box1, .box2 {
+    height: 100px;
+    width: 100px;
+}
+
+.box1 {
+    margin: 30px;
+    background-color: red;
+}
+
+.box2 {
+    padding: 30px;
+    background-color: blue;
+}
+
+.wrapper {
+    background-color: yellow;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left; /* all element go out from box model due to that */
+}
+
+nav {
+    background-color: black;
+    overflow: hidden; /* Here it will recover again float model */
+}
+
+nav a:hover {
+    background-color: white;
+    color: black; 
+}
+
+nav a:visited {
+    background-color: white;
+    color: blue; 
+}
+
+.nav-bar {
+    margin-top: 10px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.nav-bar li:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+table {
+    margin: 40px;
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(170, 170, 117);
+}
+
+td {
+    background-color: rgb(220, 220, 178);
+}
